@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ɵNgNoValidate } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Assignment-1';
+  //uc1
+  title = 'Hello World';
+
+  ngOnInit() {
+    this.title="Hello World from Bridgelabz";
+  }
 }
+
+
+

@@ -9,9 +9,15 @@ import { ɵNgNoValidate } from '@angular/forms';
 export class AppComponent {
   //uc1
   title = 'Hello World';
+  url="https://www.bridgelabz.com/";
 
   ngOnInit() {
     this.title="Hello World from Bridgelabz";
+  }
+  //uc3
+  onClick($event:any){
+    console.log("Save button is clicked!" ,$event);
+    window.open(this.url, "_blank");
   }
 }
 

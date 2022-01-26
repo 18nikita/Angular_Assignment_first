@@ -10,6 +10,9 @@ export class AppComponent {
   //uc1
   title = 'Hello World';
   url="https://www.bridgelabz.com/";
+  
+  //uc4
+  userName: string="";
 
   ngOnInit() {
     this.title="Hello World from Bridgelabz";
